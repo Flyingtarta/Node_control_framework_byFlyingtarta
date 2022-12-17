@@ -1,0 +1,177 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=11;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={2751.0591,786.26447,3449.3904};
+		dir[]={0.092253208,-0.61365986,0.78416258};
+		up[]={0.07169985,0.78957045,0.60945678};
+		aside[]={0.99315071,3.7252903e-009,-0.11683973};
+	};
+};
+binarizationWanted=0;
+sourceName="tarta_nodecotrol";
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=5487925;
+class ScenarioData
+{
+	author="FlyingTarta";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=5;
+		minute=-26;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=6;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={4222.3569,37.471714,5334.0405};
+			name="node";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorUNKNOWN";
+			a=250;
+			b=250;
+			id=3;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={5242.3491,182.088,5018.1709};
+			name="node_1";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorEAST";
+			a=250;
+			b=250;
+			id=5;
+			atlOffset=-41.244614;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={3182.624,5.9239998,5784.8101};
+			name="node_2";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorWEST";
+			a=250;
+			b=250;
+			id=6;
+			atlOffset=4.196167e-005;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={6492.6602,34.813999,5268.2339};
+			name="node_3";
+			text="base";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorEAST";
+			a=250;
+			b=250;
+			id=7;
+			atlOffset=-2.1563683;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={1925.7321,1.4069999,5636.7471};
+			name="node_4";
+			text="base";
+			markerType="ELLIPSE";
+			type="";
+			colorName="ColorWEST";
+			a=250;
+			b=250;
+			id=8;
+			atlOffset=-4.3079414;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3801.1997,188.52051,4876.7388};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=10;
+					type="B_Soldier_A_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=9;
+		};
+	};
+};
